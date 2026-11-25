@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "san-antonio",
+    "name": "San Antonio",
+    "aliases": [
+      "sa"
+    ],
+    "timezone": "America/Chicago",
+    "instagram": "meetsthisweekendsa",
+    "hero": {
+      "img": "assets/img/img07.jpg",
+      "alt": "Blue Nissan Skyline GT-R parked on a city street at night, tail lights glowing",
+      "credit": "@sample_photographer_1",
+      "license": "CC BY 4.0",
+      "author": "David Kernan (Wikimedia Commons, stock placeholder)",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rearview_of_a_Nissan_Skyline_in_Tokyo.jpg"
+    }
+  }
+]

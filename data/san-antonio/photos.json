@@ -1,0 +1,86 @@
+{
+  "_mock": true,
+  "_note": "Stock placeholders from Wikimedia Commons. Handles and meet names are mock. Real photos need the photographer's yes first (see README).",
+  "photos": [
+    {
+      "handle": "@sample_photographer_1",
+      "meet": "Sample meet",
+      "img": "assets/img/img02.jpg",
+      "alt": "Tuner cars lined up at a night meet under palm trees",
+      "span": "wide-tall",
+      "license": "CC BY-SA 4.0",
+      "author": "Zackaryd",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Car_Meet.jpg"
+    },
+    {
+      "handle": "@sample_photographer_2",
+      "meet": "Sample meet",
+      "img": "assets/img/img04.jpg",
+      "alt": "Cars and coffee morning meet",
+      "span": "",
+      "license": "CC BY 2.0",
+      "author": "Dennis Rex",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cars_and_Coffee_Irvine_(6108937025).jpg"
+    },
+    {
+      "handle": "@sample_photographer_3",
+      "meet": "Sample meet",
+      "img": "assets/img/img11.jpg",
+      "alt": "Mitsubishi Lancer Evolution",
+      "span": "tall",
+      "license": "CC BY-SA 4.0",
+      "author": "Alexander-93",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_VI_IMG_0346.jpg"
+    },
+    {
+      "handle": "@sample_photographer_4",
+      "meet": "Sample meet",
+      "img": "assets/img/img16.jpg",
+      "alt": "Toyota Supra at a car show",
+      "span": "",
+      "license": "CC BY-SA 4.0",
+      "author": "Michael Barera",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_042_(Toyota_Supra).jpg"
+    },
+    {
+      "handle": "@sample_photographer_5",
+      "meet": "Sample meet",
+      "img": "assets/img/img03.jpg",
+      "alt": "Cars parked at a coffee meet",
+      "span": "wide",
+      "license": "CC BY-SA 2.0",
+      "author": "Ralph Greig",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coffee_and_cars_-_geograph.org.uk_-_7065733.jpg"
+    },
+    {
+      "handle": "@sample_photographer_1",
+      "meet": "Sample meet",
+      "img": "assets/img/img08.jpg",
+      "alt": "Nissan portrait",
+      "span": "",
+      "license": "CC BY 3.0",
+      "author": "Cole Bannister",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nissan_Portrait_(241247343).jpeg"
+    },
+    {
+      "handle": "@sample_photographer_2",
+      "meet": "Sample meet",
+      "img": "assets/img/img17.jpg",
+      "alt": "Ford Bronco",
+      "span": "",
+      "license": "CC BY-SA 4.0",
+      "author": "Alexander-93",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_(6th_generation)_1X7A6831.jpg"
+    },
+    {
+      "handle": "@sample_photographer_3",
+      "meet": "Sample meet",
+      "img": "assets/img/img19.jpg",
+      "alt": "Honda Civic Type R",
+      "span": "wide",
+      "license": "CC BY-SA 4.0",
+      "author": "Alexander Migl",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Honda_Civic_Type_R_Customer_Racing_Study_IMG_0298.jpg"
+    }
+  ]
+}

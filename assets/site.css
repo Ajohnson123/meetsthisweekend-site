@@ -132,4 +132,39 @@ footer { border-top: 1px solid var(--line); }
   .wall-inner, .host { padding-top: 56px; padding-bottom: 56px; }
   .host h2 { font-size: 44px; }
   .meet h3 { font-size: 30px; }
+  /* an even tile count leaves the last tile alone on its row: let it fill the row */
+  .tile:last-child:nth-child(even) { grid-column: span 2; }
+  .wall-head h2 { font-size: 40px; }
+  .follow-title { font-size: 26px; }
+}
+
+/* small phones (iPhone SE / mini and narrower) */
+@media (max-width: 420px) {
+  .wrap, .top { padding-left: 16px; padding-right: 16px; }
+  .test-banner { padding: 8px 16px; font-size: 12px; }
+  .top { padding-top: 20px; padding-bottom: 16px; gap: 10px; }
+  .brand { font-size: 21px; }
+  .top nav { gap: 16px; font-size: 13px; }
+  .hero { height: 460px; }
+  .hero-copy { padding: 24px 16px; gap: 14px; }
+  h1 { font-size: 46px; }
+  .meets-head h2 { font-size: 36px; }
+  .chip { padding: 0 14px; font-size: 13px; }
+  .meet { padding: 22px 0; }
+  .meet h3 { font-size: 27px; }
+  .meet-foot { flex-wrap: wrap; row-gap: 6px; }
+  .mosaic { gap: 6px; grid-auto-rows: 150px; }
+  .wall-head h2 { font-size: 34px; }
+  .host h2 { font-size: 38px; }
+  .host { gap: 24px; }
+  .city-card { font-size: 28px; padding: 22px; }
+}
+
+/* phones: legibility fixes (long handles, date line over a bright photo) */
+@media (max-width: 720px) {
+  .tile { padding: 10px; }
+  .tile-handle, .tile-meet { overflow-wrap: anywhere; }
+  .tile-handle { font-size: 12px; line-height: 1.25; }
+  .hero-shade { background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.45) 45%, rgba(10,10,11,0.92) 100%); }
+  .eyebrow { text-shadow: 0 1px 8px rgba(0,0,0,0.8); }
 }
